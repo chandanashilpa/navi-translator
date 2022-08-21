@@ -1,0 +1,75 @@
+:root {
+  --primary: #1e3a8a;
+  --orange: #fbbf24;
+  --black: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Papyrus", fantasy;
+  color: var(--orange);
+}
+header {
+  background-color: var(--primary);
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+}
+.container {
+  width: 570px;
+  margin: auto;
+}
+#text-input {
+  display: block;
+  margin: auto;
+  height: 20vh;
+  width: 100%;
+  font-family: "Papyrus", fantasy;
+  color: var(--primary);
+  font-size: 1.1rem;
+  margin-top: 3rem;
+  font-weight: bold;
+}
+#btn-translate {
+  border: none;
+  background-color: var(--primary);
+  color: var(--orange);
+  font-family: "Papyrus", fantasy;
+  font-size: 1.3rem;
+  padding: 1rem 1.5rem;
+  margin-top: 1rem;
+  /* font-weight: bold; */
+}
+#label-output {
+  margin-top: 1rem;
+  color: var(--primary);
+  font-size: 1.15rem;
+  /* font-weight: bold; */
+}
+#output {
+  border: 1px solid var(--black);
+  border-radius: 0.2rem;
+  height: 10vh;
+  color: var(--primary);
+  font-weight: bold;
+}
+footer {
+  position: fixed;
+  background-color: var(--primary);
+  text-align: center;
+  bottom: 0;
+  width: 100vw;
+  padding: 1rem;
+}
+.footer-heading {
+  font-size: 1.5rem;
+}
+.footer-desc {
+  font-size: 1rem;
+  width: 600px;
+  margin: auto;
+}
